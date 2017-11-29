@@ -1,6 +1,6 @@
 {
   "name": "ember-typography",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add typography web fonts to an ember app",
   "keywords": [
     "ember-addon"
