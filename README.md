@@ -1,27 +1,22 @@
-# ember-typography
+# Ember Typography
 
-This README outlines the details of collaborating on this Ember addon.
+Add typography.com fonts to your ember apps
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-typography`
-* `npm install`
-* `bower install`
+```sh
+ember install ember-typography
+```
 
-## Running
+## Configuration
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Add to your enviroment.js file `config.enviroment.js` your typography `CSS Key`.
+IE: `<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6000000/60000000/css/fonts.css" />`
 
-## Running Tests
+`6000000/60000000` is your `CSS_KEY`
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+```sh
+  ENV.typography =  {
+    CSS_KEY: '<CSS_KEY>'  //6000000/60000000
+  };
+```
